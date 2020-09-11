@@ -13,10 +13,12 @@
 		85323837250BC48C0081936A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85323835250BC48C0081936A /* Main.storyboard */; };
 		85323839250BC48E0081936A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85323838250BC48E0081936A /* Assets.xcassets */; };
 		8532383C250BC48E0081936A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8532383A250BC48E0081936A /* LaunchScreen.storyboard */; };
+		85323845250BE7BC0081936A /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85323843250BE7BC0081936A /* DemoTableViewCell.swift */; };
+		85323846250BE7BC0081936A /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85323844250BE7BC0081936A /* DemoTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8532382C250BC48C0081936A /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8532382C250BC48C0081936A /* Table View Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Table View Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8532382F250BC48C0081936A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		85323831250BC48C0081936A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		85323833250BC48C0081936A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		85323838250BC48E0081936A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8532383B250BC48E0081936A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8532383D250BC48E0081936A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85323843250BE7BC0081936A /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		85323844250BE7BC0081936A /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		8532382D250BC48C0081936A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8532382C250BC48C0081936A /* Contacts.app */,
+				8532382C250BC48C0081936A /* Table View Tests.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +67,8 @@
 				85323838250BC48E0081936A /* Assets.xcassets */,
 				8532383A250BC48E0081936A /* LaunchScreen.storyboard */,
 				8532383D250BC48E0081936A /* Info.plist */,
+				85323843250BE7BC0081936A /* DemoTableViewCell.swift */,
+				85323844250BE7BC0081936A /* DemoTableViewCell.xib */,
 			);
 			path = Contacts;
 			sourceTree = "<group>";
@@ -84,7 +90,7 @@
 			);
 			name = Contacts;
 			productName = Contacts;
-			productReference = 8532382C250BC48C0081936A /* Contacts.app */;
+			productReference = 8532382C250BC48C0081936A /* Table View Tests.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +133,7 @@
 			files = (
 				8532383C250BC48E0081936A /* LaunchScreen.storyboard in Resources */,
 				85323839250BC48E0081936A /* Assets.xcassets in Resources */,
+				85323846250BE7BC0081936A /* DemoTableViewCell.xib in Resources */,
 				85323837250BC48C0081936A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				85323834250BC48C0081936A /* ViewController.swift in Sources */,
 				85323830250BC48C0081936A /* AppDelegate.swift in Sources */,
+				85323845250BE7BC0081936A /* DemoTableViewCell.swift in Sources */,
 				85323832250BC48C0081936A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,8 +298,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.finlaymacgregor.Contacts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = se.finlaymacgregor.tableViewTests;
+				PRODUCT_NAME = "Table View Tests";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,8 +315,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.finlaymacgregor.Contacts;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = se.finlaymacgregor.tableViewTests;
+				PRODUCT_NAME = "Table View Tests";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
